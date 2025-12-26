@@ -1,0 +1,26 @@
+.product__description {
+    h6,
+    h5,
+    h3,
+    h4,
+    h2,
+    h1 {
+        font-size:24px;
+        font-weight:bold;
+    }
+
+    li,
+    p {
+        font-size:16px;
+    }
+}
+
+.product-variant__item--radio[data="has-variant-image"] {
+    background-size: unset;
+    border-radius: 30px;
+    background-position: center center;
+}
+
+.product-variant__item--radio[data="has-variant-image"] label {
+    font-weight:bold;
+}

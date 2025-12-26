@@ -1,0 +1,518 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "flex_slideshow_CWH6mB": {
+      "type": "flex-slideshow",
+      "blocks": {
+        "slide_image_MtdTFj": {
+          "type": "_slide-image",
+          "settings": {
+            "image": "shopify://shop_images/Foto_Shopify_W6.png",
+            "mobile_image": "shopify://shop_images/Foto_Shopify_W6.png",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "#0000002e",
+            "color_text_main": "rgba(0,0,0,0)"
+          },
+          "blocks": {
+            "heading_T6XJbL": {
+              "type": "heading",
+              "settings": {
+                "heading": "Entdecke jetzt unsere [br] Weihnachtsangebote",
+                "title_size": "h1",
+                "line_height": "default",
+                "text_color": "#ffffff",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            },
+            "caption_GgzzUc": {
+              "type": "caption",
+              "settings": {
+                "caption": "BEOSOUND A9",
+                "text_size": "text-size--regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "#ffffff"
+              },
+              "blocks": {}
+            },
+            "empty_space_N7yjmb": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "content_group_XmQPUp": {
+              "type": "content-group",
+              "settings": {
+                "spacing": "small"
+              },
+              "blocks": {
+                "button_wiRfyY": {
+                  "type": "button",
+                  "settings": {
+                    "button_label": "LEARN MORE",
+                    "link": "shopify://collections/angebote",
+                    "open_in_new_window": false,
+                    "button_style": "solid",
+                    "color_text_buttons": "#ffffff"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "button_wiRfyY"
+              ]
+            }
+          },
+          "block_order": [
+            "heading_T6XJbL",
+            "caption_GgzzUc",
+            "empty_space_N7yjmb",
+            "content_group_XmQPUp"
+          ]
+        },
+        "slide_image_eGbdya": {
+          "type": "_slide-image",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)"
+          },
+          "blocks": {
+            "caption_PJGt3Q": {
+              "type": "caption",
+              "settings": {
+                "caption": "BEOLAB 8 - $5499",
+                "text_size": "text-size--regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "heading_RwBezH": {
+              "type": "heading",
+              "settings": {
+                "heading": "A Standalone [br] Masterpiece",
+                "title_size": "h1",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            },
+            "empty_space_QW6hwx": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "content_group_FMARnY": {
+              "type": "content-group",
+              "settings": {
+                "spacing": "small"
+              },
+              "blocks": {
+                "button_xf3rzR": {
+                  "type": "button",
+                  "settings": {
+                    "button_label": "BUY NOW",
+                    "link": "",
+                    "open_in_new_window": false,
+                    "button_style": "solid",
+                    "color_text_buttons": "rgba(0,0,0,0)"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "button_xf3rzR"
+              ]
+            }
+          },
+          "block_order": [
+            "caption_PJGt3Q",
+            "heading_RwBezH",
+            "empty_space_QW6hwx",
+            "content_group_FMARnY"
+          ]
+        },
+        "slide_image_wUMJyG": {
+          "type": "_slide-image",
+          "settings": {
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)"
+          },
+          "blocks": {
+            "caption_4AGybK": {
+              "type": "caption",
+              "settings": {
+                "caption": "BEOSOUND A5 - from $1099",
+                "text_size": "text-size--regular",
+                "text_background_color": "rgba(0,0,0,0)",
+                "text_color": "rgba(0,0,0,0)"
+              },
+              "blocks": {}
+            },
+            "heading_e34DXb": {
+              "type": "heading",
+              "settings": {
+                "heading": "Powerful [br]Portable [br]Speakers",
+                "title_size": "h1",
+                "line_height": "default",
+                "text_color": "rgba(0,0,0,0)",
+                "seo_h_tag": "h3"
+              },
+              "blocks": {}
+            },
+            "empty_space_WiMicD": {
+              "type": "empty-space",
+              "name": "t:theme_blocks.empty-space.name",
+              "settings": {
+                "height": "0"
+              },
+              "blocks": {}
+            },
+            "content_group_kkrDKG": {
+              "type": "content-group",
+              "settings": {
+                "spacing": "small"
+              },
+              "blocks": {
+                "button_Fj379X": {
+                  "type": "button",
+                  "settings": {
+                    "button_label": "EXPLORE",
+                    "link": "",
+                    "open_in_new_window": false,
+                    "button_style": "solid",
+                    "color_text_buttons": "rgba(0,0,0,0)"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "button_Fj379X"
+              ]
+            }
+          },
+          "block_order": [
+            "caption_4AGybK",
+            "heading_e34DXb",
+            "empty_space_WiMicD",
+            "content_group_kkrDKG"
+          ]
+        }
+      },
+      "block_order": [
+        "slide_image_MtdTFj",
+        "slide_image_eGbdya",
+        "slide_image_wUMJyG"
+      ],
+      "name": "t:theme_blocks.sections.flex-slideshow.name",
+      "settings": {
+        "desktop_height": "60vh",
+        "mobile_height": "60vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "is_fullwidth": true,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "spacing": 15,
+        "width": "100%",
+        "text_blend_mode": "normal",
+        "border_radius": 0,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "disable_parallax": false
+      }
+    },
+    "1664349396209e8e9d": {
+      "type": "collection-list",
+      "blocks": {
+        "16643493964f1b2d77-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "angebote"
+          }
+        },
+        "16643493964f1b2d77-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspektionen"
+          }
+        },
+        "95ee35d2-e228-4c6d-9d34-fc485f6ad890": {
+          "type": "collection",
+          "settings": {
+            "collection": "coverlock"
+          }
+        },
+        "80a7ed9b-b5a3-4415-a7df-6f5fbbda9c74": {
+          "type": "collection",
+          "settings": {
+            "collection": "coverlockzubehor"
+          }
+        },
+        "c79004ec-b617-483c-94ff-2e5f93a7b992": {
+          "type": "collection",
+          "settings": {
+            "collection": "ersatzteile"
+          }
+        },
+        "6ad44048-b4d2-4375-b2bf-2f0ee68073fb": {
+          "type": "collection",
+          "settings": {
+            "collection": "garnsets"
+          }
+        }
+      },
+      "block_order": [
+        "16643493964f1b2d77-0",
+        "16643493964f1b2d77-1",
+        "95ee35d2-e228-4c6d-9d34-fc485f6ad890",
+        "80a7ed9b-b5a3-4415-a7df-6f5fbbda9c74",
+        "c79004ec-b617-483c-94ff-2e5f93a7b992",
+        "6ad44048-b4d2-4375-b2bf-2f0ee68073fb"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--large",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "show_view_all": false,
+        "style": "slider",
+        "layout": "grid-6 grid-portable-4 grid-lap-3 grid-palm-2",
+        "image_aspect_ratio": "0.83333",
+        "image_border_radius": 30,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": true,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "1664361270539656a3": {
+      "type": "shop-the-look",
+      "blocks": {
+        "vendor_VNXWjf": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "1664361270a383e7cf-0": {
+          "type": "price",
+          "settings": {}
+        },
+        "1664361270a383e7cf-1": {
+          "type": "title",
+          "settings": {}
+        },
+        "9460eb2a-cdb3-487f-8424-bc09c7df2774": {
+          "type": "rating",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_VNXWjf",
+        "1664361270a383e7cf-0",
+        "1664361270a383e7cf-1",
+        "9460eb2a-cdb3-487f-8424-bc09c7df2774"
+      ],
+      "settings": {
+        "heading": "Shop The Look",
+        "subheading": "",
+        "section_heading_size": "text-size--large",
+        "section_heading_layout": "section-heading--left section-heading--two-rows",
+        "cta_label": "Visit collection",
+        "cta_url": "",
+        "product_list": [
+          "ws-e-ekv-013-ob",
+          "ersatzkarton-verpackung-fur-die-w6-n1235-pro"
+        ],
+        "image": "shopify://shop_images/7ae82cfd09be3a9a695b516d160a300b.webp",
+        "layout_mobile": "grid-palm-2",
+        "hero_image_position": "left",
+        "image_border_radius": 30,
+        "gutter_decrease": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "16644327731b38e13b": {
+      "type": "testimonials",
+      "blocks": {
+        "166443277289597ba1-1": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Gratisversand ab 35€*",
+            "author_title": "",
+            "quote": "<p>✅ 35€ Warenwert in Deutschland<br/>✅ 150€ Warenwert in Österreich<br/>✅ Versand am nächsten Werktag</p>"
+          }
+        },
+        "testimonial_QcT3TK": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Teste 4 Wochen",
+            "author_title": "",
+            "quote": "<p>✅ Deutschsprachige Bedienungsanleitung<br/>✅ Ausführliche Videos<br/>✅ Kompetente Beratung und Hilfe mit Herz per Telefon / E-Mail</p>"
+          }
+        },
+        "testimonial_aBGPmH": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Zahlungsarten",
+            "author_title": "",
+            "quote": "<p>✅ Finanzierung über Klarna / Paypal<br/>✅ Rechnung<br/>✅ Kreditkarte</p>"
+          }
+        }
+      },
+      "block_order": [
+        "166443277289597ba1-1",
+        "testimonial_QcT3TK",
+        "testimonial_aBGPmH"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout_mode": "grid",
+        "content_alignment": "left",
+        "color_background_main": "#0070b9",
+        "color_text_main": "#ffffff",
+        "color_borders_main": "#ffffff",
+        "border_radius": 30,
+        "color_hide_borders": true,
+        "section_background_color": "#ffffff",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": true,
+        "remove_bottom_margin": true,
+        "seo_h_tag": "h2"
+      }
+    },
+    "16624574747e3c27ed": {
+      "type": "featured-collection",
+      "blocks": {
+        "166245747472ac4f44-0": {
+          "type": "price",
+          "settings": {}
+        },
+        "166245747472ac4f44-1": {
+          "type": "title",
+          "settings": {}
+        },
+        "0afd2c9a-1791-493a-b735-5227fad1b0bd": {
+          "type": "rating",
+          "settings": {}
+        },
+        "dc22df2a-d6cb-4072-83c2-34f86732db6b": {
+          "type": "icons",
+          "settings": {}
+        },
+        "66b08189-b941-4f66-8a0c-b3f48e68738d": {
+          "type": "product_link",
+          "disabled": true,
+          "settings": {
+            "button_label": "View product"
+          }
+        }
+      },
+      "block_order": [
+        "166245747472ac4f44-0",
+        "166245747472ac4f44-1",
+        "0afd2c9a-1791-493a-b735-5227fad1b0bd",
+        "dc22df2a-d6cb-4072-83c2-34f86732db6b",
+        "66b08189-b941-4f66-8a0c-b3f48e68738d"
+      ],
+      "settings": {
+        "heading": "Bestsellers",
+        "subheading": "",
+        "section_heading_size": "text-size--large",
+        "section_heading_layout": "section-heading--left section-heading--two-rows",
+        "show_view_all": true,
+        "layout": "grid-3 grid-lap-2",
+        "layout_mobile": "grid-palm-2",
+        "style": "slider",
+        "products_number": 3,
+        "collection": "nadeln",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_hikkiQ": {
+      "type": "rich-text",
+      "blocks": {
+        "title_akYnMM": {
+          "type": "title",
+          "settings": {
+            "title": "Die Welt der Nähmaschinen: Finden Sie die perfekte Nähmaschine für Ihre Bedürfnisse",
+            "title_size": "heading-size--regular",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_dydQfN": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Vor dem Kauf einer Nähmaschine: Was Sie wissen sollten</strong></h3><p>Bevor Sie eine Nähmaschine kaufen, ist es wichtig zu überlegen, welche Anforderungen Sie an das Modell stellen und welche Preisklasse für Ihr Budget geeignet ist. In unserem Onlineshop finden Sie eine breite Auswahl an Nähmaschinen für Einsteiger, Hobbyschneider und Schneidermeister in den folgenden Kategorien:</p><ul><li><a href=\"https://www.w6-wertarbeit.de/Einsteigermaschinen/\" title=\"Einsteigernähmaschinen von W6 WERTARBEIT\">Einsteigernähmaschinen</a></li><li><a href=\"https://www.w6-wertarbeit.de/Computer-Naehmaschinen/\" title=\"Computer Nähmaschinen von W6 WERTARBEIT\">Computer Nähmaschinen</a></li><li><a href=\"https://www.w6-wertarbeit.de/Schulen-Jugendliche/\" title=\"Nähmaschinen für Schulen & Jugendliche von W6 WERTARBEIT\">Nähmaschinen für Schulen & Jugendliche</a></li><li><a href=\"https://www.w6-wertarbeit.de/Quilt-Patchwork/\" title=\"Quilt Patchwork Langarm Nähmaschinen von W6 WERTARBEIT\">Quilt Patchwork Langarm Nähmaschinen</a></li><li><a href=\"https://www.w6-wertarbeit.de/Overlock/\" title=\"Overlock-Nähmaschinen von W6 WERTARBEIT\">Overlock-Nähmaschinen</a></li><li><a href=\"https://www.w6-wertarbeit.de/Coverlock/\" title=\"Coverlock-Nähmaschinen von W6 WERTARBEIT\">Coverlock-Nähmaschinen</a></li></ul><p>Überlegen Sie in Ruhe, welche Nähmaschine optimal für Ihre Bedürfnisse ist. Sie ist ein wichtiges Werkzeug für die Herstellung von Kleidungsstücken und Stoffgegenständen. Mit der richtigen Nähmaschine werden Sie viel Freude an Ihrem Hobby oder Ihrer Arbeit haben.</p><h3><strong>Nähmaschinen und Zubehör: Alles aus einer Hand</strong></h3><p>Bei uns können Sie nicht nur Ihre neue Nähmaschine kaufen, sondern auch das passende Zubehör. Das spart Ihnen die mühsame Suche nach passenden Zubehör- und Ersatzteilen. Sollte einmal ein Teil ausgetauscht werden müssen, finden Sie bei uns alles, was Sie benötigen.</p><h3><strong>Mechanische Einsteigernähmaschine oder Computer Nähmaschine: Welche ist besser?</strong></h3><p>Auch in die Welt der Nähmaschinen hält die Computertechnologie Einzug. Doch wo liegt der Unterschied zu einer Einsteigermaschine? Bei mechanischen Modellen stellen Sie jedes Programm, die Stichbreite und Stichlänge manuell ein. Eine Computernähmaschine dagegen wird per Knopfdruck über ein Display oder eine Tastatur mit optimalen Stichbreiten- und Stichlängeneinstellungen konfiguriert. Während traditionelle Nähmaschinen maximal 36 Sticharten, inklusive weniger Zierstiche, bieten, verfügen computergesteuerte Maschinen über deutlich mehr als 100 Stiche. Modelle mit USB-Anschluss können sogar mit dem PC verbunden werden, um neue Stiche herunterzuladen.</p><p>Computernähmaschinen sind leicht zu bedienen und viele Schritte werden deutlich einfacher. Auch schwierige Stoffe können angenehmer verarbeitet werden. Wenn Sie viel nähen, sparen Sie mit einer Computernähmaschine dank der vielen automatischen Funktionen Zeit. Daher sind diese Maschinen nicht nur für Profis geeignet, sondern auch für Einsteiger mit wenig Technikerfahrung.</p><p>Im Vergleich zu herkömmlichen Nähmaschinen sind computergesteuerte Modelle jedoch teurer. Auch bei Wartungsarbeiten und Reparaturen greifen Sie tiefer in den Geldbeutel. Daher ist es ratsam, sich vorher gründlich zu überlegen, was Sie sich von der neuen Nähmaschine wünschen.</p><h3><strong>Nähmaschinen für Schulen, Nähschulen und Geschäfte</strong></h3><p>Unsere W6 Nähmaschinen eignen sich nicht nur für private Nutzer, sondern auch für Nähschulen, Schulen und Geschäfte. Die Robustheit, Langlebigkeit und die verschiedenen praktischen Funktionen unserer Nähmaschinen bieten eine optimale Basis für den Nähspaß und die Erstellung eigener Kreationen. Je nach Kenntnisstand Ihrer Schüler stehen Ihnen Nähmaschinen für Einsteiger, Fortgeschrittene sowie für Schulen und Jugendliche zur Verfügung.</p><h3><strong>W6 – Wertarbeit vom Experten</strong></h3><p>Wenn Sie Ihre Nähmaschine bei uns kaufen, erhalten Sie nicht nur ein hochwertiges Produkt, sondern auch einen kompetenten Partner. Die Qualitätsnähmaschinen sind auf Ihre Wünsche abgestimmt. Profitieren Sie von unserer langjährigen Erfahrung, Expertise und fachkundigen Beratung.</p><p>Zu Ihrer Nähmaschine erhalten Sie ein umfassendes Service-Paket. Vorab beraten wir Sie gerne telefonisch, per WhatsApp oder per E-Mail zu den einzelnen Modellen, um die richtige Nähmaschine für Sie zu finden. Bei einer Registrierung erhalten Sie außerdem 10 Jahre Garantie auf Ihre W6 Nähmaschine.</p><p>Bevor Sie mit Ihrer neuen Nähmaschine das erste Projekt beginnen, liefern wir Ihnen ein Einweisungs- und Anwendungsvideo mit. Darüber hinaus kümmert sich unsere Meisterwerkstatt um die Wartung und Reparatur der Nähmaschinen. Diese vielen Details machen echte, deutsche Wertarbeit aus.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_akYnMM",
+        "text_dydQfN"
+      ],
+      "name": "t:sections-categories.presets.heading_text",
+      "settings": {
+        "video_controls": false,
+        "image_position": "top no-image",
+        "height": "large",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-left",
+        "spacing": 36,
+        "color_background_main": "#ffffff",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 14,
+        "color_hide_borders": true,
+        "gutter_decrease": true,
+        "remove_margin": true,
+        "remove_bottom_margin": true
+      }
+    }
+  },
+  "order": [
+    "flex_slideshow_CWH6mB",
+    "1664349396209e8e9d",
+    "1664361270539656a3",
+    "16644327731b38e13b",
+    "16624574747e3c27ed",
+    "rich_text_hikkiQ"
+  ]
+}

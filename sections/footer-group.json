@@ -1,0 +1,87 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:sections.refactor_words.labels.footer_group",
+  "sections": {
+    "70891002-5c86-4940-a47d-afc05e118d48": {
+      "type": "search",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "text": "",
+        "is_fullwidth": true,
+        "color_background_main": "#101010",
+        "color_text_main": "#f2efec",
+        "color_borders_main": "#ffffff",
+        "remove_margin": true,
+        "remove_bottom_margin": true,
+        "seo_h_tag": "h3"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_MFWXjb": {
+          "type": "text",
+          "settings": {
+            "title": "Hallo 👋 ich bin Peter Vogt von W6 Wertarbeit!",
+            "image_heading_size": 40,
+            "content": "<p>Wir stellen Näh-, Stick-, Overlock- und Cover-Maschinen her und liefern direkt zu dir – ohne Zwischenhändler.</p><p>Unser Ziel: Beste Qualität zum optimalen Preis‑Leistungs‑Verhältnis. W6 Nähmaschinen haben bei Stiftung Warentest schon zweimal mit der Note „Gut“ abgeschlossen (Test-Hefte 11/2019 und 11/2024). Einmal sogar als Preis‑Leistungs‑Sieger.</p>",
+            "show_social_icons": true
+          }
+        },
+        "text_NJjJ8K": {
+          "type": "text",
+          "settings": {
+            "title": "Warum solltest du deine nächste Maschine bei W6 Wertarbeit kaufen?",
+            "image_heading_size": 40,
+            "content": "<p>✅ Top‑Service, besser als im Einzelhandel.<br/><br/>✅ 30 Tage in Ruhe zu Hause testen.<br/><br/>✅ Einführungs‑ und Anwendungsvideos gratis.<br/><br/>✅ Kompetenter Support mit Herz ❤️ gratis.<br/><br/>✅ 20 Jahre Ersatzteilmöglichkeiten plus Festpreis‑Inspektionen!</p>",
+            "show_social_icons": true
+          }
+        },
+        "text_JBVQYz": {
+          "type": "text",
+          "settings": {
+            "title": "Nehmen Sie Kontakt auf",
+            "image_heading_size": 40,
+            "content": "<p><strong>Kontakt:</strong>i<br/>nfo@w6-wertarbeit.de<br/><br/><strong>Adresse:<br/></strong>W6 Wertarbeit GmbH<br/>Bredenbecker Straße 13<br/>30974 Wennigsen</p>",
+            "show_social_icons": false
+          }
+        },
+        "menu_mijHcU": {
+          "type": "menu",
+          "settings": {
+            "title": "Quick links",
+            "menu": "footer",
+            "menu_target": false,
+            "menu_style": true
+          }
+        }
+      },
+      "block_order": [
+        "text_MFWXjb",
+        "text_NJjJ8K",
+        "text_JBVQYz",
+        "menu_mijHcU"
+      ],
+      "settings": {
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
+        "show_locale_selector": false,
+        "show_country_selector": true,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "70891002-5c86-4940-a47d-afc05e118d48",
+    "footer"
+  ]
+}
