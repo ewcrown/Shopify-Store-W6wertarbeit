@@ -109,6 +109,154 @@
         "sticky_bar_txtcolor": "#ffffff"
       }
     },
+    "rich_text_section": {
+      "type": "rich-text",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Product Information",
+            "title_size": "heading-size--regular",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover more about this product and its unique features. Learn why customers love this item and how it can benefit you.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text"
+      ],
+      "settings": {
+        "video_controls": false,
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-left",
+        "spacing": 24,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false
+      }
+    },
+    "text_columns_specs": {
+      "type": "text-columns",
+      "blocks": {
+        "spec_1": {
+          "type": "text",
+          "settings": {
+            "title": "Material",
+            "caption": "<p>Premium materials selected for durability</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "spec_2": {
+          "type": "text",
+          "settings": {
+            "title": "Dimensions",
+            "caption": "<p>Perfectly sized for everyday use</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "spec_3": {
+          "type": "text",
+          "settings": {
+            "title": "Weight",
+            "caption": "<p>Lightweight yet sturdy construction</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "spec_1",
+        "spec_2",
+        "spec_3"
+      ],
+      "settings": {
+        "heading": "Product Specifications",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout": "grid-3 grid-lap-1",
+        "block_text_alignment": "text-align--center",
+        "border_radius": 0,
+        "hide_borders": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "testimonials_4": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_1": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Alex M.",
+            "author_title": "Verified Buyer",
+            "quote": "<p>This product has completely transformed my daily routine. Highly recommended!</p>"
+          }
+        },
+        "testimonial_2": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Jessica K.",
+            "author_title": "5 Stars",
+            "quote": "<p>Excellent quality and great value for money. Will definitely purchase again.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_1",
+        "testimonial_2"
+      ],
+      "settings": {
+        "heading": "Customer Reviews",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout_mode": "slider",
+        "content_alignment": "center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "blocks": {
@@ -151,6 +299,9 @@
   },
   "order": [
     "main",
+    "rich_text_section",
+    "text_columns_specs",
+    "testimonials_4",
     "product-recommendations"
   ]
 }

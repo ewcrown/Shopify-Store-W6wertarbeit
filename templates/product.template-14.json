@@ -109,6 +109,225 @@
         "sticky_bar_txtcolor": "#ffffff"
       }
     },
+    "rich_text_14": {
+      "type": "rich-text",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Your Questions Answered",
+            "title_size": "heading-size--large",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We want to make sure you have all the information you need to make an informed decision. Here are answers to the most common questions.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text"
+      ],
+      "settings": {
+        "video_controls": false,
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-center",
+        "spacing": 24,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false
+      }
+    },
+    "content_toggles_2": {
+      "type": "content-toggles",
+      "blocks": {
+        "toggle_1": {
+          "type": "text",
+          "settings": {
+            "title": "Size Guide",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Find the perfect size for your needs with our comprehensive size guide.</p>",
+            "hide_block_if": false
+          }
+        },
+        "toggle_2": {
+          "type": "text",
+          "settings": {
+            "title": "Material & Care",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Learn about the materials used and how to properly care for your product.</p>",
+            "hide_block_if": false
+          }
+        },
+        "toggle_3": {
+          "type": "text",
+          "settings": {
+            "title": "Shipping & Delivery",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Information about shipping options and estimated delivery times.</p>",
+            "hide_block_if": false
+          }
+        },
+        "toggle_4": {
+          "type": "text",
+          "settings": {
+            "title": "Returns & Exchanges",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Our hassle-free return and exchange policy.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "toggle_1",
+        "toggle_2",
+        "toggle_3",
+        "toggle_4"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "form_enable": false,
+        "form_title": "",
+        "style": "accordion",
+        "open_first": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "text_columns_14": {
+      "type": "text-columns",
+      "blocks": {
+        "text_1": {
+          "type": "text",
+          "settings": {
+            "title": "Expert Support",
+            "caption": "<p>Our team is here to help you every step of the way</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_2": {
+          "type": "text",
+          "settings": {
+            "title": "Easy Setup",
+            "caption": "<p>Get started in minutes with our simple setup process</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_3": {
+          "type": "text",
+          "settings": {
+            "title": "Lifetime Warranty",
+            "caption": "<p>We stand behind our products with comprehensive coverage</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "text_1",
+        "text_2",
+        "text_3"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout": "grid-3 grid-lap-1",
+        "block_text_alignment": "text-align--center",
+        "border_radius": 0,
+        "hide_borders": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_14": {
+      "type": "featured-collection",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "rating"
+      ],
+      "settings": {
+        "heading": "Related Products",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "show_view_all": false,
+        "layout": "grid-4 grid-lap-2",
+        "layout_mobile": "grid-palm-2",
+        "style": "grid",
+        "products_number": 4,
+        "collection": "stickeinheit",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "blocks": {
@@ -151,6 +370,10 @@
   },
   "order": [
     "main",
+    "rich_text_14",
+    "content_toggles_2",
+    "text_columns_14",
+    "featured_collection_14",
     "product-recommendations"
   ]
 }

@@ -109,6 +109,199 @@
         "sticky_bar_txtcolor": "#ffffff"
       }
     },
+    "rich_text_centered": {
+      "type": "rich-text",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Experience Excellence",
+            "title_size": "heading-size--large",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join thousands of satisfied customers who have made this product part of their daily lives. Experience the difference that quality makes.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text"
+      ],
+      "settings": {
+        "video_controls": false,
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-center",
+        "spacing": 36,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false
+      }
+    },
+    "text_columns_17": {
+      "type": "text-columns",
+      "blocks": {
+        "text_1": {
+          "type": "text",
+          "settings": {
+            "title": "Innovative Design",
+            "caption": "<p>Cutting-edge design meets functionality</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_2": {
+          "type": "text",
+          "settings": {
+            "title": "Superior Performance",
+            "caption": "<p>Engineered for exceptional results</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_3": {
+          "type": "text",
+          "settings": {
+            "title": "Trusted Brand",
+            "caption": "<p>Backed by years of expertise</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "text_1",
+        "text_2",
+        "text_3"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout": "grid-3 grid-lap-1",
+        "block_text_alignment": "text-align--center",
+        "border_radius": 0,
+        "hide_borders": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_17": {
+      "type": "content-toggles",
+      "blocks": {
+        "faq_1": {
+          "type": "text",
+          "settings": {
+            "title": "What's included in the box?",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Each product comes with all necessary accessories, documentation, and a warranty card.</p>",
+            "hide_block_if": false
+          }
+        },
+        "faq_2": {
+          "type": "text",
+          "settings": {
+            "title": "How do I contact support?",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Our support team is available 24/7 via email, phone, or live chat. We're here to help!</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "faq_1",
+        "faq_2"
+      ],
+      "settings": {
+        "heading": "Need Help?",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "form_enable": false,
+        "form_title": "",
+        "style": "accordion",
+        "open_first": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_17": {
+      "type": "featured-collection",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "rating"
+      ],
+      "settings": {
+        "heading": "Shop The Collection",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "show_view_all": false,
+        "layout": "grid-4 grid-lap-2",
+        "layout_mobile": "grid-palm-2",
+        "style": "slider",
+        "products_number": 6,
+        "collection": "multicolorgarn",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "blocks": {
@@ -151,6 +344,10 @@
   },
   "order": [
     "main",
+    "rich_text_centered",
+    "text_columns_17",
+    "content_toggles_17",
+    "featured_collection_17",
     "product-recommendations"
   ]
 }

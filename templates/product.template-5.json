@@ -109,6 +109,220 @@
         "sticky_bar_txtcolor": "#ffffff"
       }
     },
+    "divider_4": {
+      "type": "divider",
+      "settings": {
+        "height": 60,
+        "is_fullwidth": true,
+        "color": "rgba(0,0,0,0)",
+        "style": "solid",
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false,
+        "decrease_bottom_margin": false
+      }
+    },
+    "rich_text_benefits": {
+      "type": "rich-text",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Why Choose This Product?",
+            "title_size": "heading-size--large",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience the difference that quality makes. Our product is designed to deliver exceptional performance and lasting value.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/797b004b93df0f566a11dd4a315c2527.webp",
+        "video_controls": false,
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-left",
+        "spacing": 24,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false
+      }
+    },
+    "text_columns_images": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/691a5f6e880a3bb7e193e855316666ba.webp",
+            "title": "Quality Guaranteed",
+            "caption": "Premium materials and craftsmanship",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9a9dfc4a7793bd4c87267c0d496a297b.webp",
+            "title": "Fast Delivery",
+            "caption": "Quick and reliable shipping",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/f966cecd3196412434a1c94a77245e2a.webp",
+            "title": "Customer Support",
+            "caption": "24/7 assistance available",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_1",
+        "image_2",
+        "image_3"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "text_alignment": "text-align--center",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "1",
+        "border_radius": 0,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "info_tabs_details": {
+      "type": "info-tabs",
+      "blocks": {
+        "tab_1": {
+          "type": "tab",
+          "settings": {
+            "title": "Features",
+            "caption": "<p>Discover the key features that set this product apart from the competition.</p>",
+            "image": "shopify://shop_images/ed9212a41dae4814ef4a1edbf457ab1d.webp",
+            "icon": "no-icon"
+          }
+        },
+        "tab_2": {
+          "type": "tab",
+          "settings": {
+            "title": "Specifications",
+            "caption": "<p>Complete technical specifications and detailed product information.</p>",
+            "image": "shopify://shop_images/def1e1765217c8ddc8db788c27826a27.webp",
+            "icon": "no-icon"
+          }
+        }
+      },
+      "block_order": [
+        "tab_1",
+        "tab_2"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "desktop_layout": "one-half",
+        "image_position": "left",
+        "image_aspect_ratio": "1",
+        "border_radius": 0,
+        "style": "tabs",
+        "autoplay_active": false,
+        "autoplay": 5,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_5": {
+      "type": "featured-collection",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "rating"
+      ],
+      "settings": {
+        "heading": "Complete Your Collection",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "show_view_all": false,
+        "layout": "grid-4 grid-lap-2",
+        "layout_mobile": "grid-palm-2",
+        "style": "slider",
+        "products_number": 6,
+        "collection": "leuchtgarn",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "blocks": {
@@ -151,6 +365,11 @@
   },
   "order": [
     "main",
+    "divider_4",
+    "rich_text_benefits",
+    "text_columns_images",
+    "info_tabs_details",
+    "featured_collection_5",
     "product-recommendations"
   ]
 }

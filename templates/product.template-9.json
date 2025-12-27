@@ -109,6 +109,204 @@
         "sticky_bar_txtcolor": "#ffffff"
       }
     },
+    "rich_text_full": {
+      "type": "rich-text",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Why Choose This Product?",
+            "title_size": "heading-size--large",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This product has been carefully designed and crafted to meet the highest standards of quality. Our commitment to excellence ensures that every detail is perfect.</p><p>With years of experience and customer feedback, we've created something truly special that you'll love.</p>",
+            "text_size": "regular"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "link": "",
+            "open_in_new_window": false,
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "video_controls": false,
+        "image_position": "top no-image",
+        "height": "large",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-center",
+        "spacing": 36,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false
+      }
+    },
+    "text_columns_values": {
+      "type": "text-columns",
+      "blocks": {
+        "value_1": {
+          "type": "text",
+          "settings": {
+            "title": "Durability",
+            "caption": "<p>Built to last for years of use</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "value_2": {
+          "type": "text",
+          "settings": {
+            "title": "Performance",
+            "caption": "<p>Superior performance in every way</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "value_3": {
+          "type": "text",
+          "settings": {
+            "title": "Value",
+            "caption": "<p>Exceptional value for your investment</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "value_1",
+        "value_2",
+        "value_3"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout": "grid-3 grid-lap-1",
+        "block_text_alignment": "text-align--center",
+        "border_radius": 0,
+        "hide_borders": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "testimonials_9": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_1": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "James P.",
+            "author_title": "Verified Purchase",
+            "quote": "<p>Absolutely love this product! It's become an essential part of my routine.</p>"
+          }
+        },
+        "testimonial_2": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Emma T.",
+            "author_title": "5 Stars",
+            "quote": "<p>Best purchase decision I've made. Quality is outstanding!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_1",
+        "testimonial_2"
+      ],
+      "settings": {
+        "heading": "Customer Reviews",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout_mode": "grid",
+        "content_alignment": "left",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured_collection_9": {
+      "type": "featured-collection",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "rating"
+      ],
+      "settings": {
+        "heading": "Shop Similar Products",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "show_view_all": false,
+        "layout": "grid-4 grid-lap-2",
+        "layout_mobile": "grid-palm-2",
+        "style": "grid",
+        "products_number": 4,
+        "collection": "anschiebetische",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "blocks": {
@@ -151,6 +349,10 @@
   },
   "order": [
     "main",
+    "rich_text_full",
+    "text_columns_values",
+    "testimonials_9",
+    "featured_collection_9",
     "product-recommendations"
   ]
 }

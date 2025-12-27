@@ -109,6 +109,248 @@
         "sticky_bar_txtcolor": "#ffffff"
       }
     },
+    "divider_5": {
+      "type": "divider",
+      "settings": {
+        "height": 60,
+        "is_fullwidth": true,
+        "color": "rgba(0,0,0,0)",
+        "style": "solid",
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false,
+        "decrease_bottom_margin": false
+      }
+    },
+    "rich_text_why": {
+      "type": "rich-text",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Why This Product Stands Out",
+            "title_size": "heading-size--large",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've spent countless hours perfecting every detail to ensure you receive a product that not only meets but exceeds your expectations.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/cac6bae1989ef1cc57ae2b2dae3d8547.webp",
+        "video_controls": false,
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-left",
+        "spacing": 24,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false
+      }
+    },
+    "text_columns_icons_6": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "icon_1": {
+          "type": "image",
+          "settings": {
+            "icon": "delivery",
+            "crop": true,
+            "title": "Fast Shipping",
+            "caption": "Free shipping on orders over $50",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "icon_2": {
+          "type": "image",
+          "settings": {
+            "icon": "security-shield",
+            "crop": true,
+            "title": "Secure Payment",
+            "caption": "100% secure checkout",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "icon_3": {
+          "type": "image",
+          "settings": {
+            "icon": "open-box",
+            "crop": true,
+            "title": "Easy Returns",
+            "caption": "30-day return policy",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_1",
+        "icon_2",
+        "icon_3"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-1",
+        "border_radius": 0,
+        "hide_borders": true,
+        "opacity_on_hover": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles": {
+      "type": "content-toggles",
+      "blocks": {
+        "toggle_1": {
+          "type": "text",
+          "settings": {
+            "title": "Product Specifications",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Detailed specifications and technical information about the product.</p>",
+            "hide_block_if": false
+          }
+        },
+        "toggle_2": {
+          "type": "text",
+          "settings": {
+            "title": "Care Instructions",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>How to properly care for and maintain your product.</p>",
+            "hide_block_if": false
+          }
+        },
+        "toggle_3": {
+          "type": "text",
+          "settings": {
+            "title": "Warranty Information",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Warranty details and coverage information.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "toggle_1",
+        "toggle_2",
+        "toggle_3"
+      ],
+      "settings": {
+        "heading": "Product Information",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "form_enable": false,
+        "form_title": "",
+        "style": "accordion",
+        "open_first": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "testimonials_6": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_1": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "David R.",
+            "author_title": "Verified Purchase",
+            "quote": "<p>Outstanding quality! This product has become an essential part of my daily life.</p>"
+          }
+        },
+        "testimonial_2": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Maria S.",
+            "author_title": "5 Stars",
+            "quote": "<p>Best purchase I've made this year. The quality is exceptional!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_1",
+        "testimonial_2"
+      ],
+      "settings": {
+        "heading": "What Customers Are Saying",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout_mode": "grid",
+        "content_alignment": "left",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "blocks": {
@@ -151,6 +393,11 @@
   },
   "order": [
     "main",
+    "divider_5",
+    "rich_text_why",
+    "text_columns_icons_6",
+    "content_toggles",
+    "testimonials_6",
     "product-recommendations"
   ]
 }

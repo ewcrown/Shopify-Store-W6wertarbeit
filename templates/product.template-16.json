@@ -109,6 +109,229 @@
         "sticky_bar_txtcolor": "#ffffff"
       }
     },
+    "rich_text_16": {
+      "type": "rich-text",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Discover the Difference",
+            "title_size": "heading-size--large",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience what sets our product apart. From design to delivery, we've thought of everything to ensure your complete satisfaction.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/258fc30a1c161b396605f30146679d44.webp",
+        "video_controls": false,
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-left",
+        "spacing": 24,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false
+      }
+    },
+    "text_columns_icons_16": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "icon_1": {
+          "type": "image",
+          "settings": {
+            "icon": "delivery",
+            "crop": true,
+            "title": "Fast Shipping",
+            "caption": "Free shipping on orders over $50",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "icon_2": {
+          "type": "image",
+          "settings": {
+            "icon": "security-shield",
+            "crop": true,
+            "title": "Secure Payment",
+            "caption": "100% secure checkout",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "icon_3": {
+          "type": "image",
+          "settings": {
+            "icon": "open-box",
+            "crop": true,
+            "title": "Easy Returns",
+            "caption": "30-day return policy",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_1",
+        "icon_2",
+        "icon_3"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-1",
+        "border_radius": 0,
+        "hide_borders": true,
+        "opacity_on_hover": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "info_tabs_2": {
+      "type": "info-tabs",
+      "blocks": {
+        "tab_1": {
+          "type": "tab",
+          "settings": {
+            "title": "Overview",
+            "caption": "<p>Get an overview of the product features and benefits.</p>",
+            "image": "shopify://shop_images/cac6bae1989ef1cc57ae2b2dae3d8547.webp",
+            "icon": "no-icon"
+          }
+        },
+        "tab_2": {
+          "type": "tab",
+          "settings": {
+            "title": "How It Works",
+            "caption": "<p>Learn how to use and get the most out of this product.</p>",
+            "image": "shopify://shop_images/479c0d8c5660cf985e6d39665218d91e.webp",
+            "icon": "no-icon"
+          }
+        },
+        "tab_3": {
+          "type": "tab",
+          "settings": {
+            "title": "Reviews",
+            "caption": "<p>See what customers are saying about this product.</p>",
+            "image": "shopify://shop_images/8a4acdbe1c49409d03a13200c40ee9ed.webp",
+            "icon": "no-icon"
+          }
+        }
+      },
+      "block_order": [
+        "tab_1",
+        "tab_2",
+        "tab_3"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "desktop_layout": "one-half",
+        "image_position": "left",
+        "image_aspect_ratio": "1",
+        "border_radius": 0,
+        "style": "tabs",
+        "autoplay_active": false,
+        "autoplay": 5,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "testimonials_16": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_1": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Tom B.",
+            "author_title": "Verified Purchase",
+            "quote": "<p>This product has been a game-changer for me. Highly recommend!</p>"
+          }
+        },
+        "testimonial_2": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Samantha K.",
+            "author_title": "5 Stars",
+            "quote": "<p>Outstanding quality and excellent value. Very pleased with my purchase!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_1",
+        "testimonial_2"
+      ],
+      "settings": {
+        "heading": "What Customers Are Saying",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout_mode": "slider",
+        "content_alignment": "center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "blocks": {
@@ -151,6 +374,10 @@
   },
   "order": [
     "main",
+    "rich_text_16",
+    "text_columns_icons_16",
+    "info_tabs_2",
+    "testimonials_16",
     "product-recommendations"
   ]
 }

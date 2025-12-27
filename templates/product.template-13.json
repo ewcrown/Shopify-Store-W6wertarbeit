@@ -109,6 +109,219 @@
         "sticky_bar_txtcolor": "#ffffff"
       }
     },
+    "divider_11": {
+      "type": "divider",
+      "settings": {
+        "height": 60,
+        "is_fullwidth": true,
+        "color": "rgba(0,0,0,0)",
+        "style": "solid",
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false,
+        "decrease_bottom_margin": false
+      }
+    },
+    "rich_text_with_image": {
+      "type": "rich-text",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Product Story",
+            "title_size": "heading-size--regular",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every product tells a story. Learn about the craftsmanship, design philosophy, and attention to detail that goes into creating this exceptional item.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ab8a9a275f2e61d99bf5967b0050a815.webp",
+        "video_controls": false,
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-left",
+        "spacing": 24,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false
+      }
+    },
+    "text_columns_story": {
+      "type": "text-columns",
+      "blocks": {
+        "story_1": {
+          "type": "text",
+          "settings": {
+            "title": "Craftsmanship",
+            "caption": "<p>Handcrafted with attention to every detail</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "story_2": {
+          "type": "text",
+          "settings": {
+            "title": "Innovation",
+            "caption": "<p>Cutting-edge technology meets timeless design</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "story_3": {
+          "type": "text",
+          "settings": {
+            "title": "Heritage",
+            "caption": "<p>Built on decades of expertise and tradition</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "story_1",
+        "story_2",
+        "story_3"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout": "grid-3 grid-lap-1",
+        "block_text_alignment": "text-align--center",
+        "border_radius": 0,
+        "hide_borders": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_13": {
+      "type": "content-toggles",
+      "blocks": {
+        "faq_1": {
+          "type": "text",
+          "settings": {
+            "title": "How do I get started?",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Getting started is easy! Simply follow the included instructions or watch our tutorial videos.</p>",
+            "hide_block_if": false
+          }
+        },
+        "faq_2": {
+          "type": "text",
+          "settings": {
+            "title": "What's the return policy?",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>We offer a 30-day money-back guarantee. If you're not satisfied, return it for a full refund.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "faq_1",
+        "faq_2"
+      ],
+      "settings": {
+        "heading": "Common Questions",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "form_enable": false,
+        "form_title": "",
+        "style": "accordion",
+        "open_first": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "testimonials_13": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_1": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Daniel F.",
+            "author_title": "Verified Purchase",
+            "quote": "<p>This product has made such a difference in my daily routine. Love it!</p>"
+          }
+        },
+        "testimonial_2": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Rachel M.",
+            "author_title": "5 Stars",
+            "quote": "<p>Outstanding quality and great customer service. Will definitely buy again!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_1",
+        "testimonial_2"
+      ],
+      "settings": {
+        "heading": "Customer Reviews",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout_mode": "slider",
+        "content_alignment": "center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "blocks": {
@@ -151,6 +364,11 @@
   },
   "order": [
     "main",
+    "divider_11",
+    "rich_text_with_image",
+    "text_columns_story",
+    "content_toggles_13",
+    "testimonials_13",
     "product-recommendations"
   ]
 }

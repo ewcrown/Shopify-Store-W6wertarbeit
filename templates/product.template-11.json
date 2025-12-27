@@ -109,6 +109,228 @@
         "sticky_bar_txtcolor": "#ffffff"
       }
     },
+    "divider_9": {
+      "type": "divider",
+      "settings": {
+        "height": 60,
+        "is_fullwidth": true,
+        "color": "rgba(0,0,0,0)",
+        "style": "solid",
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false,
+        "decrease_bottom_margin": false
+      }
+    },
+    "rich_text_11": {
+      "type": "rich-text",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Designed for Excellence",
+            "title_size": "heading-size--large",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our product represents the perfect blend of form and function. Every aspect has been thoughtfully designed to enhance your experience.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/75c71b63-4538-43ed-8efb-b1d3737b324b.png",
+        "video_controls": false,
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-left",
+        "spacing": 24,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false
+      }
+    },
+    "text_columns_11": {
+      "type": "text-columns",
+      "blocks": {
+        "text_1": {
+          "type": "text",
+          "settings": {
+            "title": "Expert Design",
+            "caption": "<p>Designed by industry professionals</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_2": {
+          "type": "text",
+          "settings": {
+            "title": "Quality Materials",
+            "caption": "<p>Only the finest materials are used</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_3": {
+          "type": "text",
+          "settings": {
+            "title": "Satisfaction Guaranteed",
+            "caption": "<p>100% satisfaction or your money back</p>",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "text_1",
+        "text_2",
+        "text_3"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout": "grid-3 grid-lap-1",
+        "block_text_alignment": "text-align--center",
+        "border_radius": 0,
+        "hide_borders": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_1": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Sarah M.",
+            "author_title": "Verified Buyer",
+            "quote": "<p>Absolutely love this product! Exceeded my expectations.</p>"
+          }
+        },
+        "testimonial_2": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "John D.",
+            "author_title": "5 Stars",
+            "quote": "<p>Great quality and fast shipping. Highly recommend!</p>"
+          }
+        },
+        "testimonial_3": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Emily R.",
+            "author_title": "Happy Customer",
+            "quote": "<p>Perfect product for my needs. Will buy again!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_1",
+        "testimonial_2",
+        "testimonial_3"
+      ],
+      "settings": {
+        "heading": "Customer Reviews",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout_mode": "slider",
+        "content_alignment": "center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_11": {
+      "type": "content-toggles",
+      "blocks": {
+        "faq_1": {
+          "type": "text",
+          "settings": {
+            "title": "What makes this product special?",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Our product combines innovative design with premium materials to deliver exceptional quality and performance.</p>",
+            "hide_block_if": false
+          }
+        },
+        "faq_2": {
+          "type": "text",
+          "settings": {
+            "title": "Is there a warranty?",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Yes, all products come with a comprehensive warranty. Check product documentation for details.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "faq_1",
+        "faq_2"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "form_enable": false,
+        "form_title": "",
+        "style": "accordion",
+        "open_first": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "blocks": {
@@ -151,6 +373,11 @@
   },
   "order": [
     "main",
+    "divider_9",
+    "rich_text_11",
+    "text_columns_11",
+    "testimonials",
+    "content_toggles_11",
     "product-recommendations"
   ]
 }
