@@ -1,15 +1,14 @@
 <!doctype html>
-  <html id="html" class="no-js" lang="{{ request.locale.iso_code }}" dir="{%- render 'lang-dir' -%}">
+<html id="html" class="no-js" lang="{{ request.locale.iso_code }}" dir="{%- render 'lang-dir' -%}">
   <head>
-  
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0">
-  
+
     {%- if settings.favicon -%}
-      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 48, height: 48 }}" type="image/png" />
+      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 48, height: 48 }}" type="image/png">
     {%- endif -%}
-  
+
     {%- capture seo_title -%}
       {%- if template contains 'search' -%}
         {{ search.terms | replace: '*', '' | split: ' AND ' | last }} - {{ shop.name | escape }}
@@ -17,37 +16,38 @@
         {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name | escape }}{% endunless %}
       {%- endif -%}
     {%- endcapture -%}
-  
+
     <title>{{ seo_title }}</title>
-  
+
     {%- if page_description -%}
       <meta name="description" content="{{ page_description | escape }}">
     {%- endif -%}
-  
+
     {%- liquid
       render 'open-graph'
-      unless settings.disable_microdata 
+      unless settings.disable_microdata
         render 'microdata-schema'
       endunless
     -%}
-  
+
     <link rel="canonical" href="{{ canonical_url }}">
-  
+
     <link rel="preconnect" href="https://cdn.shopify.com">
     {%- unless settings.headings_font.system? and settings.body_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
-      
+
     {%- render 'head-variables' -%}
     {%- render 'head-preloader' -%}
-  
+
     {{ 'ew-styles.css' | asset_url | stylesheet_tag }}
+
     {{ 'theme.css' | asset_url | stylesheet_tag }}
-  
+    {{ 'fi.css' | asset_url | stylesheet_tag }}
+
     {{ content_for_header }}
-  
+
     <script>
-  
       /* js helpers */
       const debounce = (fn, wait) => {
         let t;
@@ -55,7 +55,7 @@
           clearTimeout(t);
           t = setTimeout(() => fn.apply(this, args), wait);
         };
-      }
+      };
       window.KEYCODES = {
         TAB: 9,
         ESC: 27,
@@ -63,87 +63,101 @@
         RIGHT: 39,
         UP: 38,
         LEFT: 37,
-        RETURN: 13
+        RETURN: 13,
       };
-  
+
       /* background image sizes */
       const rbi = [];
       const rbiSetSize = (img) => {
-        if ( img.offsetWidth / img.dataset.ratio < img.offsetHeight ) {
+        if (img.offsetWidth / img.dataset.ratio < img.offsetHeight) {
           img.setAttribute('sizes', `${Math.ceil(img.offsetHeight * img.dataset.ratio)}px`);
         } else {
           img.setAttribute('sizes', `${Math.ceil(img.offsetWidth)}px`);
         }
-      }
-      window.addEventListener('resize', debounce(()=>{
-        for ( let img of rbi ) {
-          rbiSetSize(img);
-        }
-      }, 250));
-  
-      /* lazy looad images reveal effect */
-      const imageReveal = new IntersectionObserver((entries, observer)=>{
-        entries.forEach(entry=>{
-          if ( entry.isIntersecting ) {
-            setTimeout(()=>{
-              entry.target.classList.remove('lazy-image--to-reveal');
-            }, 500);
-            entry.target.classList.add('lazy-image--revealed');
-            observer.unobserve(entry.target);
+      };
+      window.addEventListener(
+        'resize',
+        debounce(() => {
+          for (let img of rbi) {
+            rbiSetSize(img);
           }
-        });
-      }, {rootMargin: '20px 0px 0px 0px'});
+        }, 250)
+      );
 
+      /* lazy looad images reveal effect */
+      const imageReveal = new IntersectionObserver(
+        (entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              setTimeout(() => {
+                entry.target.classList.remove('lazy-image--to-reveal');
+              }, 500);
+              entry.target.classList.add('lazy-image--revealed');
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { rootMargin: '20px 0px 0px 0px' }
+      );
     </script>
-    
+
     {%- if template == 'customers/addresses' or request.design_mode -%}
       <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer></script>
     {%- endif -%}
-  
+
     <noscript>
       <link rel="stylesheet" href="{{ 'theme-noscript.css' | asset_url }}">
     </noscript>
-  
   </head>
-  
-  <body id="{{ page_title | handle }}" class="no-touchevents 
-    {% if customer %} customer-logged-in {% endif %} 
-    template-{{ template.name }} template-{{ template | replace: '.', ' ' | handle }} 
-    {% unless settings.show_sidebars_scrollbar %} sidebars-has-scrollbars {% endunless %}
-  ">
-    
+
+  <body
+    id="{{ page_title | handle }}"
+    class="
+      no-touchevents
+      {% if customer %} customer-logged-in {% endif %}
+      template-{{ template.name }} template-{{ template | replace: '.', ' ' | handle }}
+      {% unless settings.show_sidebars_scrollbar %} sidebars-has-scrollbars {% endunless %}
+    "
+  >
     <script type="text/javascript">
-      if ( 'ontouchstart' in window || window.DocumentTouch && document instanceof DocumentTouch ) { document.querySelector('body').classList.remove('no-touchevents'); document.querySelector('body').classList.add('touchevents'); } 
+      if ('ontouchstart' in window || (window.DocumentTouch && document instanceof DocumentTouch)) {
+        document.querySelector('body').classList.remove('no-touchevents');
+        document.querySelector('body').classList.add('touchevents');
+      }
     </script>
-  
-    <a href="#main" class="visually-hidden skip-to-content" tabindex="0" data-js-inert>{{ 'general.accessibility_labels.skip_to_content' | t }}</a>
+
+    <a href="#main" class="visually-hidden skip-to-content" tabindex="0" data-js-inert>
+      {{- 'general.accessibility_labels.skip_to_content' | t -}}
+    </a>
     <div id="screen-reader-info" aria-live="polite" class="visually-hidden"></div>
-  
+
     {%- sections 'header-group' -%}
-  
+
     {{ 'component-slider.css' | asset_url | stylesheet_tag }}
     {{ 'component-video.css' | asset_url | stylesheet_tag }}
     {% # theme-check-disable %}
     <script src="{{ 'section-slider-vertical.js' | asset_url }}"></script>
     {% # theme-check-enable %}
-    
+
     {{ 'component-product-item.css' | asset_url | stylesheet_tag }}
     {{ 'component-product-variants.css' | asset_url | stylesheet_tag }}
 
     <main id="main" class="main-content">
       {{ content_for_layout }}
     </main>
-  
+
     {%- sections 'footer-group' -%}
     {%- section 'popups' -%}
     {%- section 'popup-age-verification' -%}
     {%- section 'exit-intent-popup' -%}
-    
+
     <script src="{{ 'component-modal.js' | asset_url }}" defer></script>
     <link rel="stylesheet" href="{{ 'component-modal.css' | asset_url }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ 'component-popup.css' | asset_url }}" media="print" onload="this.media='all'">
-  
-    <script type="text/javascript">
+
+    <script
+      type="text/javascript"
+    >
   
       KROWN = {  
         themeName: "Combine",
@@ -206,13 +220,12 @@
           cart_image_ratio: (1 / {{ settings.cart_image_ratio }})
         }
       }
-      
     </script>
-  
+
     <script src="{{ 'component-slider.js' | asset_url }}" defer></script>
     <script src="{{ 'component-product-form.js' | asset_url }}" defer></script>
     <script src="{{ 'component-quick-buy.js' | asset_url }}" defer></script>
-  
+
     {%- if request.design_mode -%}
       {{ 'component-lightbox.css' | asset_url | stylesheet_tag }}
       <script src="{{ 'section-announcement-bar.js' | asset_url }}" defer></script>
@@ -227,13 +240,26 @@
       <script src="{{ 'component-countdown-clock.js' | asset_url }}" defer></script>
       <script src="{{ 'component-scrolling-text.js' | asset_url }}" defer></script>
       <script src="{{ 'component-lightbox.js' | asset_url }}" defer></script>
-      <script src="{{ 'theme-editor.js' | asset_url }}" defer data-c="{{ shop.email }}" data-i="{{ shop.id }}" data-p="{{ settings.theme_preset }}"></script>
+      <script
+        src="{{ 'theme-editor.js' | asset_url }}"
+        defer
+        data-c="{{ shop.email }}"
+        data-i="{{ shop.id }}"
+        data-p="{{ settings.theme_preset }}"
+      ></script>
     {%- endif -%}
-    
-    {%- unless settings.cart_action == "no-overlay" or template.name contains "cart" -%}
-  
-      <sidebar-drawer id="site-cart-sidebar" class="sidebar sidebar--right {% if cart.item_count == 0 %} cart-is-empty {% endif %}" tabindex="-1" role="dialog" aria-modal="true" data-cart-items="{{ cart.item_count }}" style="display:none" data-js-site-cart-sidebar>
-        
+
+    {%- unless settings.cart_action == 'no-overlay' or template.name contains 'cart' -%}
+      <sidebar-drawer
+        id="site-cart-sidebar"
+        class="sidebar sidebar--right {% if cart.item_count == 0 %} cart-is-empty {% endif %}"
+        tabindex="-1"
+        role="dialog"
+        aria-modal="true"
+        data-cart-items="{{ cart.item_count }}"
+        style="display:none"
+        data-js-site-cart-sidebar
+      >
         <div class="sidebar__header">
           <span class="sidebar__title">
             {{ 'cart.title' | t }}
@@ -244,13 +270,15 @@
             <span aria-hidden="true" aria-role="img">{%- render 'theme-symbols', icon: 'close' -%}</span>
           </button>
         </div>
-  
-        <div class="sidebar__body sidebar__body--flex">
 
+        <div class="sidebar__body sidebar__body--flex">
           <div class="sidebar__body-top">
             <div class="cart-form">
               {%- render 'cart-form', type: 'sidebar' -%}
-              <a href="{{ routes.all_products_collection_url }}" class="cart-continue button button--fullwidth button--solid button--regular">
+              <a
+                href="{{ routes.all_products_collection_url }}"
+                class="cart-continue button button--fullwidth button--solid button--regular"
+              >
                 {{ 'cart.continue_browsing' | t }}
               </a>
             </div>
@@ -262,18 +290,20 @@
             -%}
 
             {%- if settings.cart_recommendations -%}
-              <cart-recommendations class="hide-if-empty-cart" id="cart-recommendations-sidebar" data-section="cart-recommendations" data-limit="6"></cart-recommendations>
+              <cart-recommendations
+                class="hide-if-empty-cart"
+                id="cart-recommendations-sidebar"
+                data-section="cart-recommendations"
+                data-limit="6"
+              ></cart-recommendations>
               <script src="{{ 'component-cart-recommendations.js' | asset_url }}" defer></script>
             {%- endif -%}
           </div>
 
           {%- if settings.show_discount_code or settings.cart_notes_enable -%}
-
             <div class="sidebar__body-bottom hide-if-empty-cart">
-  
               {%- if settings.cart_notes_enable -%}
                 <div class="cart__instructions sidebar-large-padding hide-if-empty-cart cart-detail--collapsible-{{ settings.show_collapsible_notes_discount }}">
-
                   {%- if settings.show_collapsible_notes_discount -%}
                     <details class="cart__accordion-details">
                       <summary class="align-content align-content--vertical-middle">
@@ -287,25 +317,26 @@
                       </summary>
                   {%- endif -%}
 
-                    <div class="form-field">
-                      <cart-note>
-                        <label for="CartDrawer-Note" class="{% if settings.show_collapsible_notes_discount %}visually-hidden{% endif %}">
-                          {{ 'cart.note' | t }}
-                        </label>
-                        <textarea id="CartDrawer-Note" name="note">{{ cart.note }}</textarea>
-                      </cart-note>  
-                    </div>
+                  <div class="form-field">
+                    <cart-note>
+                      <label
+                        for="CartDrawer-Note"
+                        class="{% if settings.show_collapsible_notes_discount %}visually-hidden{% endif %}"
+                      >
+                        {{ 'cart.note' | t }}
+                      </label>
+                      <textarea id="CartDrawer-Note" name="note">{{ cart.note }}</textarea>
+                    </cart-note>
+                  </div>
 
                   {%- if settings.show_collapsible_notes_discount -%}
                     </details>
                   {%- endif -%}
-
                 </div>
               {%- endif -%}
 
               {%- if settings.show_discount_code -%}
                 <div class="cart-detail--collapsible-{{ settings.show_collapsible_notes_discount }}">
-                  
                   {% liquid
                     assign discount_codes = cart.cart_level_discount_applications | where: 'type', 'discount_code' | map: 'title'
                     for item in cart.items
@@ -318,7 +349,7 @@
 
                     assign discount_codes = discount_codes | uniq
                   %}
-                  
+
                   {%- if settings.show_collapsible_notes_discount -%}
                     <details class="cart__accordion-details">
                       <summary class="align-content align-content--vertical-middle">
@@ -334,13 +365,21 @@
 
                   <div class="form-field">
                     <cart-discounts>
-                      <label for="CartPage-Discount" class="{%- if settings.show_collapsible_notes_discount -%}visually-hidden{%- endif -%}">
+                      <label
+                        for="CartPage-Discount"
+                        class="{%- if settings.show_collapsible_notes_discount -%}visually-hidden{%- endif -%}"
+                      >
                         {{ 'cart.discount_codes_label' | t }}
                       </label>
 
                       <form class="cart__coupons-form">
                         <input id="CartPage-Discount" name="discount" type="text" data-js-discount-input>
-                        <button type="submit" id="cartDiscountSubmit" class="button button--solid" data-js-discount-submit>
+                        <button
+                          type="submit"
+                          id="cartDiscountSubmit"
+                          class="button button--solid"
+                          data-js-discount-submit
+                        >
                           {{ 'collections.apply' | t }}
                         </button>
                       </form>
@@ -357,48 +396,55 @@
                         {%- for discount_code in discount_codes -%}
                           {%- render 'cart-item-discount', discount: discount_code, remove: true -%}
                         {%- endfor -%}
-                      </div> 
+                      </div>
                     </cart-discounts>
                   </div>
 
                   {%- if settings.show_collapsible_notes_discount -%}
                     </details>
                   {%- endif -%}
-
                 </div>
               {%- endif -%}
-
             </div>
           {%- endif -%}
-  
         </div>
 
         {%- render 'cart-gift-wrapping', class: 'cart-wrapping--sidebar' -%}
-  
-        <div class="sidebar__footer hide-if-empty-cart" 
-          style="background-color:var(--color-background-main-alternate);
-          {% if settings.sticky_cart_actions %} position: sticky; {% endif %}"
+
+        <div
+          class="sidebar__footer hide-if-empty-cart"
+          style="
+            background-color:var(--color-background-main-alternate);
+            {% if settings.sticky_cart_actions %} position: sticky; {% endif %}
+          "
         >
           {%- render 'cart-subtotal', type: 'sidebar' -%}
         </div>
-  
       </sidebar-drawer>
-  
+
       <script>
         new MutationObserver((mutations, observer) => {
-          if ( document.getElementById('cart').classList.contains('cart--empty') ) {
+          if (document.getElementById('cart').classList.contains('cart--empty')) {
             document.getElementById('site-cart-sidebar').classList.add('cart-is-empty');
           } else {
             document.getElementById('site-cart-sidebar').classList.remove('cart-is-empty');
           }
         }).observe(document.querySelector('.cart-form'), {
-          attributes: false, childList: true, subtree: true
-        })
+          attributes: false,
+          childList: true,
+          subtree: true,
+        });
       </script>
-  
     {%- endunless -%}
-  
-    <sidebar-drawer id="site-search-sidebar" class="sidebar sidebar--left" tabindex="-1" role="dialog" aria-modal="true" style="display:none">
+
+    <sidebar-drawer
+      id="site-search-sidebar"
+      class="sidebar sidebar--left"
+      tabindex="-1"
+      role="dialog"
+      aria-modal="true"
+      style="display:none"
+    >
       <div class="sidebar__header">
         <span class="sidebar__title">
           {{ 'search.drawer.title' | t }}
@@ -409,36 +455,55 @@
         </button>
       </div>
       <div class="sidebar__body">
-        
         <search-form class="sidebar-large-padding">
-          <form action="{{ routes.search_url }}" method="get" class="input-group search-bar ajax subtitle" role="search" autocomplete="off">
+          <form
+            action="{{ routes.search_url }}"
+            method="get"
+            class="input-group search-bar ajax subtitle"
+            role="search"
+            autocomplete="off"
+          >
             <label for="search-form-sidebar" class="visually-hidden">{{ 'search.drawer.title' | t }}</label>
-            <input id="search-form-sidebar" type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ 'search.drawer.placeholder' | t }}" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-js-search-input>
+            <input
+              id="search-form-sidebar"
+              type="search"
+              name="q"
+              value="{{ search.terms | escape }}"
+              placeholder="{{ 'search.drawer.placeholder' | t }}"
+              autocomplete="off"
+              autocorrect="off"
+              autocapitalize="off"
+              spellcheck="false"
+              data-js-search-input
+            >
           </form>
           <div class="top">
             <div id="search-results" class="search-results predictive-search" data-js-search-results></div>
           </div>
         </search-form>
-
       </div>
     </sidebar-drawer>
-    
+
     <link rel="stylesheet" href="{{ 'component-cart.css' | asset_url }}" media="print" onload="this.media='all'">
-  
+
+    <script src="{{ 'fi.js' | asset_url }}" defer></script>
+
     <script src="{{ 'component-quantity-selector.js' | asset_url }}" defer></script>
-    {%- if settings.cart_action == "overlay" or template.name contains "cart" -%}
+    {%- if settings.cart_action == 'overlay' or template.name contains 'cart' -%}
       <script src="{{ 'component-cart.js' | asset_url }}" defer></script>
     {%- endif -%}
-  
+
     <link rel="stylesheet" href="{{ 'component-sidebar.css' | asset_url }}" media="print" onload="this.media='all';">
     <script src="{{ 'section-header.js' | asset_url }}" defer></script>
-  
+
     <div class="site-overlay" style="display:none"></div>
-  
+
     <link rel="stylesheet" href="{{ 'section-main-product.css' | asset_url }}" media="print" onload="this.media='all';">
 
     {%- if settings.show_gotop -%}
-      <span id="go-top" class="main-go-top"
+      <span
+        id="go-top"
+        class="main-go-top"
         onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
       >
         <span class="visually-hidden">{{ 'general.accessibility_labels.go_to_top' | t }}</span>
@@ -446,29 +511,33 @@
         <span class="main-go-top__text">{{ 'general.accessibility_labels.top' | t }}</span>
       </span>
       <script>
-        window.addEventListener('scroll', ()=>{
-          if ( window.scrollY > 500 ) {
-            document.getElementById('go-top').classList.add('show');
-          } else {
-            document.getElementById('go-top').classList.remove('show');
-          }
-        }, {passive: true});
+        window.addEventListener(
+          'scroll',
+          () => {
+            if (window.scrollY > 500) {
+              document.getElementById('go-top').classList.add('show');
+            } else {
+              document.getElementById('go-top').classList.remove('show');
+            }
+          },
+          { passive: true }
+        );
       </script>
     {%- endif -%}
-    
+
     <script>
-      document.querySelectorAll('.rte a img').forEach(function(elm){
+      document.querySelectorAll('.rte a img').forEach(function (elm) {
         elm.parentNode.style.border = 'none';
       });
-      document.querySelectorAll('.rte table').forEach(elm => {
-        elm.outerHTML = '<div class="table-wrapper">' + elm.outerHTML + "</div>";
-     });
+      document.querySelectorAll('.rte table').forEach((elm) => {
+        elm.outerHTML = '<div class="table-wrapper">' + elm.outerHTML + '</div>';
+      });
     </script>
-    
+
     {%- unless template contains 'cart' and settings.enable_instapage == false -%}
       <script src="{{ 'instantpage.js' | asset_url }}" type="module" defer></script>
     {%- endunless -%}
-    
+
     {%- if settings.disable_all_image_animations -%}
       <style>
         .lazy-image img,
@@ -488,6 +557,5 @@
         }
       </style>
     {%- endif -%}
-  
   </body>
-  </html>
+</html>

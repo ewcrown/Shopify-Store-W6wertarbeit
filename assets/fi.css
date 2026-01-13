@@ -1,0 +1,36 @@
+
+a.main_color_family.button.button--outline {
+    padding: 5px 30px;
+    color: #fff;
+    text-shadow: 0 0px 2px black;
+    margin-right: 5px;
+    border: 2px solid transparent;
+}
+a.main_color_family.button.button--outline.is-active {
+    border: 2px solid #000;
+}
+a.metafield-file_reference > img {
+  max-width: 50px;
+  vertical-align: sub;
+}
+.betriebsanleitung-pdf-file svg {
+  max-width: 40px;
+}
+betriebsanleitung-pdf-file {
+  display: flex;
+  align-items: end;
+  gap: 15px;
+}
+.betriebsanleitung-pdf-file a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none !important;
+  border: 0;
+}
+.main_colors_family-container {
+    margin-bottom: 20px;
+}
+.hidden {
+    display: none;
+}

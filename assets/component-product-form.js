@@ -354,6 +354,9 @@ if ( typeof ProductVariants !== 'function' ) {
 			this.currentOptionValueHash = optionValuesHash;
 			this.addEventListeners();
 
+
+			
+
 			if ( targetUrl !== '' && targetUrl !== undefined && targetUrl !== this.dataset.url ) {
 				if ( variant.hasAttribute('data-product-custom-url') || ( variant instanceof HTMLSelectElement && variant.selectedOptions[0].hasAttribute('data-product-custom-url') ) ) {
 					if ( variant.dataset.productCustomUrl == 'product' ) {
@@ -389,6 +392,15 @@ if ( typeof ProductVariants !== 'function' ) {
 		}
 
 		renderProductUpdates(html) {
+
+			// fi code chunk to update variant description
+				// const old_variant_desc = document.querySelector('.variant-description');
+				// const new_variant_desc = html.querySelector('.variant-description');
+				// // old_variant_desc.innerHTML=new_variant_desc;
+				// console.log(html.querySelector('.variant-description'));
+				
+			// fi code chunk to update variant description End
+				
 
 			// update variant specific blocks
 			html.querySelectorAll('[data-update-block]').forEach(elm=>{
@@ -1018,7 +1030,7 @@ if ( typeof StickyAddToCart !== 'function' ) {
 						})
 					}
 				}
-
+				
 			} 
 
 			this.querySelector('button[data-js-choose]')?.addEventListener('click', ()=>{

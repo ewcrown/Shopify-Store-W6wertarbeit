@@ -52,8 +52,16 @@
           "settings": {
             "product_description_truncated": "full",
             "collapsible": true,
-            "heading": "Description"
+            "heading": "Beschreibung"
           }
+        },
+        "betriebsanleitung_tab_hFghxg": {
+          "type": "betriebsanleitung_tab",
+          "settings": {}
+        },
+        "herstellerangaben_tab_FAybaK": {
+          "type": "herstellerangaben_tab",
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -81,6 +89,8 @@
         "variant_picker",
         "buy_buttons",
         "description",
+        "betriebsanleitung_tab_hFghxg",
+        "herstellerangaben_tab_FAybaK",
         "share",
         "collapsible_tab_yk6Jqa"
       ],
